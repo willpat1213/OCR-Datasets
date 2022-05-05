@@ -1,2 +1,124 @@
-# OCR-Datasets
-总结OCR领域的主流公开数据集，包含检测&amp;识别、各种场景、各种语言的数据集，并提供数据集的相关信息及下载链接。
+# 常用公开数据集整理
+
+## Detection & Recognition
+
+### Synthetic Datasets
+
+#### SynthText(ST)
+
+1. **描述**：数据集采用自然图像与文本合成的方式生成，经过一些处理使得文字在图片中相对自然
+2. **语言**：English
+3. **尺寸**：90k
+4. **标注形式**：每个文本实例均使用文本字符串、字级和字符级边界框进行注释。[标注介绍](https://www.robots.ox.ac.uk/~vgg/data/scenetext/readme.txt)
+5. 下载链接：http://www.robots.ox.ac.uk/~vgg/data/scenetext/
+
+
+
+### Real Datasets
+
+#### Google FSNS
+
+1. **描述**：从法国谷歌街景图片中街区的街道名称标志图片，每个图像包含同一街道名称标志的四个视图。路标上的文字最多可以跨越三行。每一个路标都有一个规范的抄本。
+2. **语言**：France
+3. **尺寸**：1080k
+4. **标注形式**：
+5. **下载链接**：http://rrc.cvc.uab.es/?ch=6&com=downloads
+
+
+
+#### Chinese Text in the Wild(CTW)
+
+1. **描述**：图像源于腾讯街景，从中国的几十个不同城市中捕捉得到，不带任何特定目的的偏好。包含了平面文本、凸出文本、城市街景文本、乡镇街景文本、弱照明条件下的文本、远距离文本、部分显示文本等。
+2. **语言**：Chinese
+3. **尺寸**：32k
+4. **标注形式**：对每个中文字符，数据集都标注了其真实字符、边界框和 6 个属性以指出其是否被遮挡、有复杂的背景、被扭曲、3D 凸出、艺术化，和手写体等。
+5. **下载链接**：https://ctwdataset.github.io/
+
+
+
+#### The Uber Text dataset
+
+1. **描述**：包含了从车载传感器采集的街道级图像和由图像分析团队注释的Ground Truth。
+2. **语言**：English
+3. **尺寸**：110k
+4. **标注形式**：segmentation-based
+5. **下载链接**：https://s3-us-west-2.amazonaws.com/uber-common-public/ubertext/index.html
+
+
+
+#### ICDAR2019-MLT
+
+1. **描述**：多种混合语言标注的自然场景图片
+2. **语言**：Arabic、French、Chinese、German、Korean、Japanese、Italian、Bangladesh、Hindi（1000 per）
+3. **尺寸**：10k for train; 10k for text
+4. **标注形式**：x1, y1, x2, y2, x3, y3, x4, y4, 顺时针(character-based)
+5. **下载链接**：https://rrc.cvc.uab.es/?ch=15&com=evaluation&task=1
+
+
+
+#### ICDAR2019-ArT
+
+1. **描述**：Arbitrary-Shaped Text，任意形状场景文字
+2. **语言**：mix
+3. **尺寸**：10k
+4. **标注形式**：json格式标签，(segmentation-based)
+5. **下载链接**：http://rrc.cvc.uab.es/?ch=14
+
+
+
+#### SCUT-CTW1500
+
+1. **描述**：针对弯曲文本检测的数据集
+2. **语言**：mainly Chinese & English
+3. **尺寸**：1.5k
+4. **标注形式**：每行共32个数字，前四个数字为该弯曲文本在整张图上的矩形框坐标值，剩下的28个值为14个点，为相对于矩形框左上角得误差补偿即为与左上角坐标所形成的差值，形成封闭的弯曲文本框(segmentation-based)
+5. **下载链接**：https://github.com/Yuliang-Liu/Curve-Text-Detector
+
+
+
+#### Total-Text
+
+1. **描述**：Total-Text是最大弯曲文本数据集之一-ArT（任意形状文本数据集）训练集中的一部分。用于关于任意形状文本识别阅读任务的创新想法研究。
+2. **语言**：English & some of Chinese
+3. **尺寸**：1.5k
+4. **标注形式**：character-based
+5. **下载链接**：https://drive.google.com/file/d/1bC68CzsSVTusZVvOkk7imSZSbgD1MqK2/view?usp=sharing
+
+
+
+#### COCO-TEXT
+
+1. **描述**：machine-printed vs. handwritten, legible vs. illgible, and English vs. non-English
+2. **语言**：English
+3. **尺寸**：63k
+4. **下载连接**：https://bgshih.github.io/cocotext/#h2-download
+
+
+
+## Recognition
+
+### Synthetic Datasets
+
+#### MJSynth
+
+1. **描述**：合成数据集
+2. **语言**：Mix
+3. **尺寸：**9m
+4. **下载链接**
+   1. official：http://www.robots.ox.ac.uk/~vgg/data/text/
+   2. BaiduNetdisklink(passwd:emco)：https://pan.baidu.com/s/1PBJf-BtFa7mLkltIfTXPhQ
+
+#### Synthetic Chinese String
+
+1. **描述：**数据集采自中国街景，并由街景图片中的文字行区域（例如店铺标牌、地标等等）截取出来而形成。
+2. **语言：**Mix
+3. **尺寸：**60k
+4. **下载连接：**https://aistudio.baidu.com/aistudio/competition/detail/20/0/introduction
+
+#### The Chars74K dataset
+
+1. **描述**:10% for nature scene，5% for hand written，85%for synthetic 
+2. **语言**：包括（0-9，A-Z，（a-z）
+3. **尺寸**：74k
+4. **下载连接**：http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
+

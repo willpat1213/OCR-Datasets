@@ -144,21 +144,21 @@ Recognition
 
 1. **描述**：合成数据集
 2. **语言**：Mix
-3. **尺寸：**9m
+3. **尺寸**：9m
 4. **下载链接**
    1. official：http://www.robots.ox.ac.uk/~vgg/data/text/
    2. BaiduNetdisklink(passwd:emco)：https://pan.baidu.com/s/1PBJf-BtFa7mLkltIfTXPhQ
 
 #### Synthetic Chinese String
 
-1. **描述：**数据集采自中国街景，并由街景图片中的文字行区域（例如店铺标牌、地标等等）截取出来而形成。
-2. **语言：**Mix
-3. **尺寸：**60k
+1. **描述**：数据集采自中国街景，并由街景图片中的文字行区域（例如店铺标牌、地标等等）截取出来而形成。
+2. **语言**：Mix
+3. **尺寸**：60k
 4. **下载连接：**https://aistudio.baidu.com/aistudio/competition/detail/20/0/introduction
 
 #### The Chars74K dataset
 
-1. **描述**:10% for nature scene，5% for hand written，85%for synthetic 
+1. **描述**：10% for nature scene，5% for hand written，85%for synthetic 
 2. **语言**：包括（0-9，A-Z，（a-z）
 3. **尺寸**：74k
 4. **下载连接**：http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/

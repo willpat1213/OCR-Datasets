@@ -2,24 +2,24 @@
 
 Table of Contents
 
-1. [Detection](#Detection-&-Recognition)
+1. [Detection](#Detection-\&-Recognition)
    1. [Synthetic Datasets](#Synthetic-Datasets)
       - [x] [SynthText](#SynthText(ST))
-   2. [Real Datasets](#Real&nbsp;Datasets)
-      - [x] [Chinese Text in the Wild(CTW)](#Chinese&nbsp;Text&nbsp;in&nbsp;the&nbsp;Wild(CTW))
+   2. [Real Datasets](#Real-Datasets)
+      - [x] [Chinese Text in the Wild(CTW)](#Chinese-Text-in-the-Wild(CTW))
       - [x] [COCO-TEXT](#COCO-TEXT)
-      - [x] [Google FSNS](#Google&nbsp;FSNS)
-      - [x] [ICDAR2015](#ICDAR&nbsp;2015)
+      - [x] [Google FSNS](#Google-FSNS)
+      - [x] [ICDAR2015](#ICDAR-2015)
       - [x] [ICDAR2019-ArT](#ICDAR2019-ArT)
       - [x] [ICDAR2019-MLT](#ICDAR2019-MLT)
       - [x] [MSRA-TD500](#MSRA-TD500)
       - [x] [SCUT-CTW1500](#SCUT-CTW1500)
-      - [x] [The Uber Text](#The&nbsp;Uber&nbsp;Text&nbsp;dataset)
+      - [x] [The Uber Text](#The-Uber-Text-dataset)
       - [x] [Total-Text](#Total-Text)
 2. [Recognition](#Recognition)
-      - [x] [Synthetic Datasets](#Synthetic&nbsp;Datasets)
+      - [x] [Synthetic Datasets](#Synthetic-Datasets)
       - [x] [MJSynth](#MJSynth)
-      - [x] [Synthetic Chinese String](#Synthetic&nbsp;Chinese&nbsp;String)
+      - [x] [Synthetic Chinese String](#Synthetic-Chinese-String)
 
 
 ## Detection & Recognition

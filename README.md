@@ -1,24 +1,25 @@
 # 常用公开数据集整理
 
-**Datasets:**
+Table of Contents
 
-Detection
-- [x] SynthText
-- [x] Chinese Text in the Wild
-- [x] COCO-TEXT
-- [x] Google FSNS
-- [x] ICDAR 2015
-- [x] ICDAR2019-ArT
-- [x] ICDAR2019-MLT
-- [x] MSRA-TD500
-- [x] SCUT-CTW500
-- [x] The Uber Text dataset
-- [x] Total-Text
-
-Recognition
-- [x] MJSynth
-- [x] Synthetic Chinese String
-- [x] The Chars74K dataset
+1. [Detection](#Detection&Recognition)
+   1.1. [Synthetic Datasets](#Synthetic Datasets)
+      - [x] [SynthText](#SynthText(ST))
+   1.2. [Real Datasets](#Real Datasets)
+      - [x] [Chinese Text in the Wild(CTW)](#Chinese Text in the Wild(CTW))
+      - [x] [COCO-TEXT](#COCO-TEXT)
+      - [x] [Google FSNS](#Google FSNS)
+      - [x] [ICDAR2015](#ICDAR 2015)
+      - [x] [ICDAR2019-ArT](#ICDAR2019-ArT)
+      - [x] [ICDAR2019-MLT](#ICDAR2019-MLT)
+      - [x] [MSRA-TD500](#MSRA-TD500)
+      - [x] [SCUT-CTW1500](#SCUT-CTW1500)
+      - [x] [The Uber Text](#The Uber Text dataset)
+      - [x] [Total-Text](#Total-Text)
+2. [Recognition](#Recognition)
+   - [x] [Synthetic Datasets](#Synthetic Datasets)
+   - [x] [MJSynth](#MJSynth)
+   - [x] [Synthetic Chinese String](#Synthetic Chinese String)
 
 
 ## Detection & Recognition

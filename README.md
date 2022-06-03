@@ -2,11 +2,11 @@
 
 Table of Contents
 
-1. [Detection](#Detection-\&-Recognition)
+1. [Detection](#Detection-&gt;-Recognition)
    1. [Synthetic Datasets](#Synthetic-Datasets)
-      - [x] [SynthText](#SynthText(ST))
+      - [x] [SynthText](#SynthText)
    2. [Real Datasets](#Real-Datasets)
-      - [x] [Chinese Text in the Wild(CTW)](#Chinese-Text-in-the-Wild(CTW))
+      - [x] [Chinese Text in the Wild(CTW)](#Chinese-Text-in-the-Wild)
       - [x] [COCO-TEXT](#COCO-TEXT)
       - [x] [Google FSNS](#Google-FSNS)
       - [x] [ICDAR2015](#ICDAR-2015)
@@ -26,7 +26,7 @@ Table of Contents
 
 ### Synthetic Datasets
 
-#### SynthText(ST)
+#### SynthText
 
 1. **描述**：数据集采用自然图像与文本合成的方式生成，经过一些处理使得文字在图片中相对自然。常用作预训练模型。
 2. **语言**：English
@@ -38,7 +38,7 @@ Table of Contents
 
 ### Real Datasets
 
-#### Chinese Text in the Wild(CTW)
+#### Chinese Text in the Wild
 
 1. **描述**：图像源于腾讯街景，从中国的几十个不同城市中捕捉得到，不带任何特定目的的偏好。包含了平面文本、凸出文本、城市街景文本、乡镇街景文本、弱照明条件下的文本、远距离文本、部分显示文本等。
 2. **语言**：Chinese

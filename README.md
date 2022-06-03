@@ -1,7 +1,24 @@
 # 常用公开数据集整理
 
-[TOC]
+**Datasets:**
 
+Detection
+- [x] SynthText
+- [x] Chinese Text in the Wild
+- [x] COCO-TEXT
+- [x] Google FSNS
+- [x] ICDAR 2015
+- [x] ICDAR2019-ArT
+- [x] ICDAR2019-MLT
+- [x] MSRA-TD500
+- [x] SCUT-CTW500
+- [x] The Uber Text dataset
+- [x] Total-Text
+
+Recognition
+- [x] MJSynth
+- [x] Synthetic Chinese String
+- [x] The Chars74K dataset
 
 
 ## Detection & Recognition

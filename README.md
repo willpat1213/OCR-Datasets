@@ -3,9 +3,9 @@
 Table of Contents
 
 1. [Detection](#Detection&Recognition)
-   1.1. [Synthetic Datasets](#Synthetic Datasets)
+   1. [Synthetic Datasets](#Synthetic Datasets)
       - [x] [SynthText](#SynthText(ST))
-   1.2. [Real Datasets](#Real Datasets)
+   2. [Real Datasets](#Real Datasets)
       - [x] [Chinese Text in the Wild(CTW)](#Chinese Text in the Wild(CTW))
       - [x] [COCO-TEXT](#COCO-TEXT)
       - [x] [Google FSNS](#Google FSNS)
@@ -17,9 +17,9 @@ Table of Contents
       - [x] [The Uber Text](#The Uber Text dataset)
       - [x] [Total-Text](#Total-Text)
 2. [Recognition](#Recognition)
-   - [x] [Synthetic Datasets](#Synthetic Datasets)
-   - [x] [MJSynth](#MJSynth)
-   - [x] [Synthetic Chinese String](#Synthetic Chinese String)
+      - [x] [Synthetic Datasets](#Synthetic Datasets)
+      - [x] [MJSynth](#MJSynth)
+      - [x] [Synthetic Chinese String](#Synthetic Chinese String)
 
 
 ## Detection & Recognition

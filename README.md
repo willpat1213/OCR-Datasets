@@ -2,13 +2,13 @@
 
 Table of Contents
 
-1. [Detection](#Detection&nbsp&&nbspRecognition)
-   1. [Synthetic Datasets](#Synthetic&nbspDatasets)
+1. [Detection](#Detection &nbsp\& &nbspRecognition)
+   1. [Synthetic Datasets](#Synthetic &nbspDatasets)
       - [x] [SynthText](#SynthText(ST))
    2. [Real Datasets](#Real Datasets)
       - [x] [Chinese Text in the Wild(CTW)](#Chinese&nbspText&nbspin&nbspthe&nbspWild(CTW))
       - [x] [COCO-TEXT](#COCO-TEXT)
-      - [x] [Google FSNS](#Google FSNS)
+      - [x] [Google FSNS](#Google&nbspFSNS)
       - [x] [ICDAR2015](#ICDAR&nbsp2015)
       - [x] [ICDAR2019-ArT](#ICDAR2019-ArT)
       - [x] [ICDAR2019-MLT](#ICDAR2019-MLT)

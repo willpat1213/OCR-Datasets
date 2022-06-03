@@ -2,8 +2,8 @@
 
 Table of Contents
 
-1. [Detection](#Detection&thinsp;&&thinsp;Recognition)
-   1. [Synthetic Datasets](#Synthetic&thinsp;Datasets)
+1. [Detection](#Detection-&-Recognition)
+   1. [Synthetic Datasets](#Synthetic-Datasets)
       - [x] [SynthText](#SynthText(ST))
    2. [Real Datasets](#Real&nbsp;Datasets)
       - [x] [Chinese Text in the Wild(CTW)](#Chinese&nbsp;Text&nbsp;in&nbsp;the&nbsp;Wild(CTW))

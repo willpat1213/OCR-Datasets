@@ -1,30 +1,24 @@
 # 常用公开数据集整理
 
+[TOC]
+
+
+
 ## Detection & Recognition
 
 ### Synthetic Datasets
 
 #### SynthText(ST)
 
-1. **描述**：数据集采用自然图像与文本合成的方式生成，经过一些处理使得文字在图片中相对自然
+1. **描述**：数据集采用自然图像与文本合成的方式生成，经过一些处理使得文字在图片中相对自然。常用作预训练模型。
 2. **语言**：English
 3. **尺寸**：90k
 4. **标注形式**：每个文本实例均使用文本字符串、字级和字符级边界框进行注释。[标注介绍](https://www.robots.ox.ac.uk/~vgg/data/scenetext/readme.txt)
-5. 下载链接：http://www.robots.ox.ac.uk/~vgg/data/scenetext/
+5. **下载链接**：http://www.robots.ox.ac.uk/~vgg/data/scenetext/
 
 
 
 ### Real Datasets
-
-#### Google FSNS
-
-1. **描述**：从法国谷歌街景图片中街区的街道名称标志图片，每个图像包含同一街道名称标志的四个视图。路标上的文字最多可以跨越三行。每一个路标都有一个规范的抄本。
-2. **语言**：France
-3. **尺寸**：1080k
-4. **标注形式**：
-5. **下载链接**：http://rrc.cvc.uab.es/?ch=6&com=downloads
-
-
 
 #### Chinese Text in the Wild(CTW)
 
@@ -36,23 +30,32 @@
 
 
 
-#### The Uber Text dataset
+#### COCO-TEXT
 
-1. **描述**：包含了从车载传感器采集的街道级图像和由图像分析团队注释的Ground Truth。
+1. **描述**：machine-printed vs. handwritten, legible vs. illgible, and English vs. non-English
 2. **语言**：English
-3. **尺寸**：110k
-4. **标注形式**：segmentation-based
-5. **下载链接**：https://s3-us-west-2.amazonaws.com/uber-common-public/ubertext/index.html
+3. **尺寸**：63k
+4. **下载连接**：https://bgshih.github.io/cocotext/#h2-download
 
 
 
-#### ICDAR2019-MLT
+#### Google FSNS
 
-1. **描述**：多种混合语言标注的自然场景图片
-2. **语言**：Arabic、French、Chinese、German、Korean、Japanese、Italian、Bangladesh、Hindi（1000 per）
-3. **尺寸**：10k for train; 10k for text
-4. **标注形式**：x1, y1, x2, y2, x3, y3, x4, y4, 顺时针(character-based)
-5. **下载链接**：https://rrc.cvc.uab.es/?ch=15&com=evaluation&task=1
+1. **描述**：从法国谷歌街景图片中街区的街道名称标志图片，每个图像包含同一街道名称标志的四个视图。路标上的文字最多可以跨越三行。每一个路标都有一个规范的抄本。
+2. **语言**：France
+3. **尺寸**：1080k
+4. **标注形式**：
+5. **下载链接**：http://rrc.cvc.uab.es/?ch=6&com=downloads
+
+
+
+#### ICDAR 2015
+
+1. **描述**：自然场景图像(图像分辨率较低)
+2. **语言**：English
+3. **尺寸**：1.5k, 1k for train, 500 for test.
+4. **标注形式**：x1, y1, x2, y2, x3, y3, x4, y4, 顺时针(word-based)
+5. **下载链接**：https://rrc.cvc.uab.es/?ch=4&com=downloads
 
 
 
@@ -66,6 +69,26 @@
 
 
 
+#### ICDAR2019-MLT
+
+1. **描述**：多种混合语言标注的自然场景图片
+2. **语言**：Arabic、French、Chinese、German、Korean、Japanese、Italian、Bangladesh、Hindi（1000 per）
+3. **尺寸**：10k for train; 10k for text
+4. **标注形式**：x1, y1, x2, y2, x3, y3, x4, y4, 顺时针(character-based)
+5. **下载链接**：https://rrc.cvc.uab.es/?ch=15&com=evaluation&task=1
+
+
+
+#### MSRA-TD500
+
+1. **描述**：以多方向文本和多语种为主要特征的一组自然场景图像，主要以广告牌为背景。
+2. **语言**： multi-lingual
+3. **尺寸**：total: 500——300 for train, 200 for test
+4. **标注形式**：$(x, y, w, h, \theta)$, $(x, y)$表示水平矩形框时左上角的坐标
+5. **下载链接**：http://www.iapr-tc11.org/dataset/MSRA-TD500/MSRA-TD500.zip
+
+
+
 #### SCUT-CTW1500
 
 1. **描述**：针对弯曲文本检测的数据集
@@ -76,22 +99,23 @@
 
 
 
+#### The Uber Text dataset
+
+1. **描述**：包含了从车载传感器采集的街道级图像和由图像分析团队注释的Ground Truth。
+2. **语言**：English
+3. **尺寸**：110k
+4. **标注形式**：segmentation-based
+5. **下载链接**：https://s3-us-west-2.amazonaws.com/uber-common-public/ubertext/index.html
+
+
+
 #### Total-Text
 
-1. **描述**：Total-Text是最大弯曲文本数据集之一-ArT（任意形状文本数据集）训练集中的一部分。用于关于任意形状文本识别阅读任务的创新想法研究。
+1. **描述**：Total-Text是最大弯曲文本数据集之一-ArT（任意形状文本数据集）训练集中的一部分。同时包含水平文本、多方向文本以及曲线文本。
 2. **语言**：English & some of Chinese
-3. **尺寸**：1.5k
-4. **标注形式**：character-based
+3. **尺寸**：total: 1.5k, 1255 for train, 300 for test.
+4. **标注形式**：word-based
 5. **下载链接**：https://drive.google.com/file/d/1bC68CzsSVTusZVvOkk7imSZSbgD1MqK2/view?usp=sharing
-
-
-
-#### COCO-TEXT
-
-1. **描述**：machine-printed vs. handwritten, legible vs. illgible, and English vs. non-English
-2. **语言**：English
-3. **尺寸**：63k
-4. **下载连接**：https://bgshih.github.io/cocotext/#h2-download
 
 
 
@@ -103,16 +127,16 @@
 
 1. **描述**：合成数据集
 2. **语言**：Mix
-3. **尺寸**：9m
+3. **尺寸：**9m
 4. **下载链接**
    1. official：http://www.robots.ox.ac.uk/~vgg/data/text/
    2. BaiduNetdisklink(passwd:emco)：https://pan.baidu.com/s/1PBJf-BtFa7mLkltIfTXPhQ
 
 #### Synthetic Chinese String
 
-1. **描述**：数据集采自中国街景，并由街景图片中的文字行区域（例如店铺标牌、地标等等）截取出来而形成。
-2. **语言**：Mix
-3. **尺寸**：60k
+1. **描述：**数据集采自中国街景，并由街景图片中的文字行区域（例如店铺标牌、地标等等）截取出来而形成。
+2. **语言：**Mix
+3. **尺寸：**60k
 4. **下载连接：**https://aistudio.baidu.com/aistudio/competition/detail/20/0/introduction
 
 #### The Chars74K dataset

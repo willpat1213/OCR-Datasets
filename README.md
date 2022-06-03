@@ -2,7 +2,7 @@
 
 Table of Contents
 
-1. [Detection](#Detection-&gt;-Recognition)
+1. [Detection](#Detection-&amp;-Recognition)
    1. [Synthetic Datasets](#Synthetic-Datasets)
       - [x] [SynthText](#SynthText)
    2. [Real Datasets](#Real-Datasets)

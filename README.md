@@ -152,6 +152,13 @@ Table of Contents
 
 #### IIIT5k-Words
 
+1. **描述**：该数据集从Google图像搜索中通过使用广告词，广告牌，门牌号，门牌号，电影海报等查询词来收集图像获得的。
+2. **语言**：English
+3. **尺寸**：5k
+4. **下载连接**：http://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset
+
+#### Street View Text
+
 1. **描述**：
 2. **语言**：
 3. **尺寸**：

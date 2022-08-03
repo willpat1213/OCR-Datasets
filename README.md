@@ -150,12 +150,19 @@ Table of Contents
    1. official：http://www.robots.ox.ac.uk/~vgg/data/text/
    2. BaiduNetdisklink(passwd:emco)：https://pan.baidu.com/s/1PBJf-BtFa7mLkltIfTXPhQ
 
+#### IIIT5k-Words
+
+1. **描述**：
+2. **语言**：
+3. **尺寸**：
+4. **下载连接**：
+
 #### Synthetic Chinese String
 
 1. **描述**：数据集采自中国街景，并由街景图片中的文字行区域（例如店铺标牌、地标等等）截取出来而形成。
 2. **语言**：Mix
 3. **尺寸**：60k
-4. **下载连接：**https://aistudio.baidu.com/aistudio/competition/detail/20/0/introduction
+4. **下载连接**：https://aistudio.baidu.com/aistudio/competition/detail/20/0/introduction
 
 #### The Chars74K dataset
 

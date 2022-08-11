@@ -150,6 +150,15 @@ Table of Contents
    1. official：http://www.robots.ox.ac.uk/~vgg/data/text/
    2. BaiduNetdisklink(passwd:emco)：https://pan.baidu.com/s/1PBJf-BtFa7mLkltIfTXPhQ
 
+### Real Datasets
+
+#### CUTE80
+
+1. **描述**：数据集包含一些带有歪曲文本的自然图像
+2. **语言**：English
+3. **尺寸**：80张图像，288个单词实例
+4. **下载连接**：http://cs-chan.com/downloads_CUTE80_dataset.html
+
 #### IIIT5k-Words
 
 1. **描述**：该数据集从Google图像搜索中通过使用广告词，广告牌，门牌号，门牌号，电影海报等查询词来收集图像获得的。
@@ -157,12 +166,19 @@ Table of Contents
 3. **尺寸**：5k
 4. **下载连接**：http://cvit.iiit.ac.in/research/projects/cvit-projects/the-iiit-5k-word-dataset
 
-#### Street View Text
+#### Street View Text(SVT)
 
-1. **描述**：
-2. **语言**：
-3. **尺寸**：
+1. **描述**：图像来源自于Google Street View，数据集种的图像包含好质量和低质量的图像，通常低质量图片居多。
+2. **语言**：English
+3. **尺寸**：249张图像、647个单词实例
 4. **下载连接**：
+
+#### Street View Text Perspective(SVTP)
+
+1. **描述**：数据集与SVT图像同源，图片大部分带有透视
+2. **语言**：English
+3. **尺寸**：238张图像、645个单词实例
+4. **下载连接**：https://pan.baidu.com/s/1XgtAR6zVWSzblQaoYpJQX
 
 #### Synthetic Chinese String
 

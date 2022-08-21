@@ -18,16 +18,16 @@ Table of Contents
       - [x] [Total-Text](#Total-Text)
 
 2. [Recognition](#Recognition)
-   1. [Synthetic Datasets](#Recog Synthetic Datasets)
+   1. [Synthetic Datasets](#Recog-Synthetic-Datasets)
       - [x] [Synthetic Datasets](#Synthetic-Datasets)
       - [x] [MJSynth](#MJSynth)
-   2. [Real Datasets](#Recog Real Datasets)
+   2. [Real Datasets](#Recog-Real-Datasets)
       - [x] [CUTE80](#CUTE80)
       - [x] [IIIT5k-Words](#IIIT5k-Words)
-      - [x] [Street View Text(SVT)](#Street View Text(SVT))
-      - [x] [Street View Text Perspective(SVTP)](#Street View Text Perspective(SVTP))
+      - [x] [Street View Text(SVT)](#Street-View-Text(SVT))
+      - [x] [Street View Text Perspective(SVTP)](#Street-View-Text-Perspective(SVTP))
       - [x] [Synthetic Chinese String](#Synthetic-Chinese-String)
-      - [x] [The Chars74K dataset](#The Chars74K dataset)
+      - [x] [The Chars74K dataset](#The-Chars74K-dataset)
 
 
 
